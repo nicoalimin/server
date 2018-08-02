@@ -11,9 +11,15 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"github.com/gorilla/mux"
 )
 
+var (
+	port = 8080
+)
+
 func main() {
-	fmt.Println("Welcome to go")
+
+	main := mux.newRouter()
 }
