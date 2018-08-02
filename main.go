@@ -9,7 +9,10 @@
 
 package main
 
-import fmt
+import (
+	"fmt"
+	"github.com/gorilla/mux"
+)
 
 func main() {
 	fmt.Println("Welcome to go")
